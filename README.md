@@ -2,10 +2,10 @@
 
 # 👟 Nike Slider | WebHub Style
 
-![Preview 1](./figma/frame2.png)
-![Preview 2](./figma/frame3.pgn)
-![Preview 3](./figma/frame4.png)
-![Preview 4](./figma/frame5.png)
+![Preview 1](./figma/Frame2.png)
+![Preview 2](./figma/Frame3.png)
+![Preview 3](./figma/Frame4.png)
+![Preview 4](./figma/Frame5.png)
 
 ---
 
