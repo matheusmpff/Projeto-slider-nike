@@ -4,20 +4,42 @@
     box-sizing: border-box;
 }
 
+:root {
+  --blur-red: #b5202036;
+  --blur-green: #61b52036;
+  --blur-brown: #B5862036;
+  --blur-gray: #EBDCDC36;
+}
+
 body{
     width: 100vw;
     height: 100vh;
     font-family: 'Anton';
     display: flex;
     flex-direction: column;
+    background-color: #1B0A0A;
 }
-
+.slider{
+    width: 100vw;
+    height: 100vh;
+}
+.slider::before{
+    content: "";
+    position: absolute;
+    width: 628px;
+    height: 628px;
+    background-color: var(--blur-red);
+    border-radius: 50%;
+    top: 120px;
+    left: 574px;
+    filter: blur(1000px);
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 104px;
-    padding-top: 36px;
+    
 }
 
 header ul{
@@ -74,5 +96,72 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+.princImg img{
+    width: 700px;
+    height: 700px;
+}
+
+.infPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 104px;
+}
+
+.collections img{
+    width: 240px;
+}
+
+
+.texts{
+    font-size: 48px;
+}
+
+.text2{
+    margin-top: -12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #A9A6A6;
+}
+
+
+.year{
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.nikeOptions{
+    display: flex;
+    gap: 52px;
+}
+
+.op1,.op2,.op3,.op4{
+    width: 68px;
+    height: 68px;
+}
+.op1,.op2, .op3, .op4{
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.op1,.op2 img, .op3 img, .op4 img{
+    transform: rotate(20deg) translateY(-10px);
+}
+
+.selected{
+    transform: translateX(-10px) rotate(-20deg);
+}
+
+.opselected{
+    border-radius: 50%;
+
+    background-color: #a9a6a646;
 }
