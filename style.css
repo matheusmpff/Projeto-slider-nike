@@ -9,6 +9,8 @@
   --blur-green: #61b52036;
   --blur-brown: #B5862036;
   --blur-gray: #EBDCDC36;
+
+  --blur-color: #b5202036;
 }
 
 body{
@@ -17,7 +19,7 @@ body{
     font-family: 'Anton';
     display: flex;
     flex-direction: column;
-    background-color: #1B0A0A;
+    background-color: #301212ff;
 }
 .slider{
     width: 100vw;
@@ -28,7 +30,7 @@ body{
     position: absolute;
     width: 628px;
     height: 628px;
-    background-color: var(--blur-red);
+    background-color: var(--blur-color);
     border-radius: 50%;
     top: 120px;
     left: 574px;
@@ -84,7 +86,7 @@ button{
     align-items: center;
     justify-content: center;
     z-index: -2;
-    color: #1e1e1e70;
+    color: #14141485;
     font-size: 400px;
     letter-spacing: 15%;
     background-color: #1B0A0A;
@@ -143,7 +145,7 @@ button{
     height: 68px;
 }
 .op1,.op2, .op3, .op4{
-
+    border-radius: 50%;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -161,7 +163,5 @@ button{
 }
 
 .opselected{
-    border-radius: 50%;
-
     background-color: #a9a6a646;
 }
